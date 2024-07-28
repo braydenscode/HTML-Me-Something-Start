@@ -4,13 +4,21 @@ header {
     text-align: center;
 }
 
+#mainHeading {
+    color: red;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .coverart {
-    object-fit: contain;
-    max-height: 345px;
+    object-fit: fill;
+    height: 345px;
+    width: 260px;
 }
 
 body {
     background-color:dimgray;
+    margin: 8px;
+    display: block;
     
 }
 
@@ -20,10 +28,20 @@ img {
 
 h3 {
     font-size: xx-large;
+    padding-left: 30px;
+    font-weight: bold;
 }
 
 p {
+ font-size: large;
+}
+
+.summary {
     font-size: x-large;
+    background-color: #4b4b4b;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 * {
@@ -34,6 +52,7 @@ p {
     float: left;
     width: 33.33%;
     padding: 5px;
+    padding-bottom: 50px;
 }
 
 .row::after {
@@ -46,4 +65,13 @@ p {
     .column {
       width: 100%;
     }
+}
+
+.funParagraph {
+    color: green;
+    font-size: x-large;
+    background-color: #4b4b4b;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
 }
