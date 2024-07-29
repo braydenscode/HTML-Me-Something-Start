@@ -16,7 +16,7 @@ header {
 }
 
 body {
-    background-color:dimgray;
+    background-color:#4b4b4b;
     margin: 8px;
     display: block;
     
@@ -39,7 +39,7 @@ p {
 
 .summary {
     font-size: x-large;
-    background-color: #4b4b4b;
+    background-color:dimgray;
     padding: 20px;
     margin-left: 100px;
     margin-right: 100px;
@@ -73,11 +73,11 @@ p {
 .funParagraph {
     color: green;
     font-size: x-large;
-    background-color: #4b4b4b;
+    background-color: dimgray;
     padding: 20px;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 20px;
     text-align: center;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 1px 5px black;
 }
