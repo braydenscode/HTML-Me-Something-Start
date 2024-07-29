@@ -28,9 +28,9 @@ img {
 
 h3 {
     font-size: xx-large;
-    padding-left: 30px;
     font-weight: bold;
     padding-top: 50px;
+    text-align: center;
 }
 
 p {
@@ -40,7 +40,10 @@ p {
 .summary {
     font-size: x-large;
     background-color: #4b4b4b;
-    padding: 10px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
     border-radius: 20px;
     text-align: center;
 }
@@ -71,7 +74,10 @@ p {
     color: green;
     font-size: x-large;
     background-color: #4b4b4b;
-    padding: 10px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     border-radius: 20px;
     text-align: center;
+    text-shadow: 2px 2px black;
 }
