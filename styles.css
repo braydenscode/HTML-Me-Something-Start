@@ -5,6 +5,7 @@ header {
 }
 
 #mainHeading {
+    font-size: 60px;
     color: red;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -27,7 +28,7 @@ img {
 }
 
 h3 {
-    font-size: xx-large;
+    font-size: 40px;
     font-weight: bold;
     padding-top: 50px;
     text-align: center;
