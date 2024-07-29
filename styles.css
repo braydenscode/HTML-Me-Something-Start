@@ -30,6 +30,7 @@ h3 {
     font-size: xx-large;
     padding-left: 30px;
     font-weight: bold;
+    padding-top: 50px;
 }
 
 p {
@@ -52,7 +53,6 @@ p {
     float: left;
     width: 33.33%;
     padding: 5px;
-    padding-bottom: 50px;
 }
 
 .row::after {
